@@ -142,4 +142,16 @@ The name and logo "REFORMAMINI" are reserved and are not licensed with the app.
 
 ---
 
+## ❤️ Support the project
+
+REFORMAMINI is free, **forever**. There are no paid tiers and no locked features. If REFORMAMINI is useful to you and you want to support its development, please consider making a voluntary donation. Your contribution will help maintain the project and keep improving the app for the study of God's Word for everyone.
+
+A donation is voluntary and unlocks nothing: no feature, no content and no advantage. The app stays the same for everyone.
+
+**[Make a voluntary donation](https://ko-fi.com/reformamini)** · [reformamini.com](https://reformamini.com)
+
+> «But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To Him be the glory, both now and to the day of eternity. Amen.» · 2 Peter 3:18 (LSB)
+
+---
+
 **SOLI DEO GLORIA**
