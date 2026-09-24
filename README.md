@@ -109,7 +109,7 @@ Every feature listed here is built and working in the app.
 REFORMAMINI is in active development toward version 1.0. What is still ahead:
 
 * 🏷️ **Your own tags on highlights:** gather what you underlined in Romans, Ephesians and Titus under one theme.
-* 📤 **Document exporting:** notes already export to Markdown; formatted PDF export of passages and study notes is planned.
+* 📤 **Exporting Scripture passages:** notes already export to Markdown and to PDF (from the note's Export menu), and the Atlas exports as an image; a formatted PDF export straight from the Bible reader is planned.
 * 🌐 **Translation, OCR and audio:** exploratory, after 1.0.
 
 ---
