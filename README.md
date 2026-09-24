@@ -11,6 +11,8 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 >
 > The name comes from the Latin Vulgate of that verse: *sed reformamini in novitate sensus vestri*. That renewal comes from studying the Word.
 
+**Free, forever.** If REFORMAMINI is useful to you, you can support its development with a voluntary donation: **[ko-fi.com/reformamini](https://ko-fi.com/reformamini)**. Learn more at **[reformamini.com](https://reformamini.com)**.
+
 ---
 
 ## ⬇️ Download
@@ -139,18 +141,6 @@ The full terms are in [`LICENSE`](LICENSE), in English and Spanish. You can also
 The name and logo "REFORMAMINI" are reserved and are not licensed with the app.
 
 "e-Sword" is a trademark of its respective owner. REFORMAMINI reads modules in the format that program uses, but is not affiliated with it, does not carry its endorsement or sponsorship, and does not include or use its code.
-
----
-
-## ❤️ Support the project
-
-REFORMAMINI is free, **forever**. There are no paid tiers and no locked features. If REFORMAMINI is useful to you and you want to support its development, please consider making a voluntary donation. Your contribution will help maintain the project and keep improving the app for the study of God's Word for everyone.
-
-A donation is voluntary and unlocks nothing: no feature, no content and no advantage. The app stays the same for everyone.
-
-**[Make a voluntary donation](https://ko-fi.com/reformamini)** · [reformamini.com](https://reformamini.com)
-
-> «But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To Him be the glory, both now and to the day of eternity. Amen.» · 2 Peter 3:18 (LSB)
 
 ---
 
