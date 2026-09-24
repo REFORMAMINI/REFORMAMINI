@@ -1,0 +1,396 @@
+REFORMAMINI - CONTRATO DE LICENCIA DE USO
+Versión 1.1 - 11 de septiembre de 2026
+
+Este documento contiene el contrato en español y, a continuación, su traducción
+al inglés. En caso de discrepancia entre ambas versiones, prevalece la española.
+
+This document contains the agreement in Spanish followed by its English
+translation. In case of discrepancy, the Spanish version prevails.
+
+===============================================================================
+                                   ESPAÑOL
+===============================================================================
+
+1. OBJETO Y ACEPTACIÓN
+
+REFORMAMINI es una aplicación de escritorio para el estudio de la Biblia,
+desarrollada y publicada por su autor (en adelante, "el Titular").
+
+Este contrato regula el uso del programa REFORMAMINI, incluidos su código ejecutable,
+sus recursos originales y su documentación (en adelante, "el Programa").
+
+Al instalar, copiar o usar el Programa usted acepta este contrato en su
+totalidad. Si no lo acepta, no instale ni use el Programa.
+
+Cada versión del Programa se entrega con la versión de este contrato vigente
+en el momento de su publicación, que es la que rige el uso de esa versión del
+Programa. Instalar una versión posterior implica aceptar el contrato que la
+acompañe.
+
+2. CONCESIÓN DE USO
+
+El Titular le concede una licencia de uso gratuita, perpetua, no exclusiva y de
+alcance mundial para instalar y usar el Programa, sin límite de número de
+equipos y sin necesidad de registro, cuenta ni pago de ninguna clase.
+
+El uso permitido incluye el uso personal, devocional, familiar, académico,
+congregacional y profesional.
+
+3. REDISTRIBUCIÓN PERMITIDA
+
+Usted puede copiar y entregar a otras personas el instalador o la versión
+portable del Programa, siempre que se cumplan las tres condiciones siguientes:
+
+  a) que lo entregue sin modificar, tal como lo publicó el Titular;
+  b) que no cobre nada por el Programa, ni lo use como objeto o reclamo de un
+     cobro, incluidos su entrega, su instalación o su soporte cuando lo
+     cobrado sea en realidad el acceso al Programa. Nada de esto impide que
+     quien preste un servicio propio cobre su tiempo, siempre que el Programa
+     se entregue gratis y sin condición; y
+  c) que este contrato viaje con la copia.
+
+Esto cubre expresamente copiarlo a una memoria USB, entregarlo en un dispositivo
+a un conocido o a una congregación, e instalarlo en equipos ajenos sin cobrar.
+
+4. PROHIBICIONES
+
+Salvo en la medida en que la ley aplicable lo permita expresamente pese a esta
+prohibición, usted no puede:
+
+  a) vender, alquilar, arrendar, prestar con cobro ni sublicenciar el Programa,
+     ni cobrar cantidad alguna cuyo objeto sea el acceso al Programa, bajo
+     cualquier concepto o denominación;
+  b) distribuirlo como parte de un producto o servicio de pago, ni incluirlo en
+     un paquete por el que se cobre;
+  c) modificar, adaptar, traducir ni crear obras derivadas del Programa;
+  d) descompilar, desensamblar ni aplicar ingeniería inversa al Programa, ni
+     intentar obtener su código fuente por ningún medio. Esta prohibición no
+     alcanza a la extracción del contenido de dominio público empaquetado con
+     el Programa, que el apartado 6(a) autoriza expresamente;
+  e) retirar, ocultar ni alterar los avisos de autoría, de licencia o de marca
+     que el Programa contenga.
+
+5. PROPIEDAD INTELECTUAL
+
+El Programa se licencia, no se vende. El Titular conserva la titularidad del
+código, del diseño de la interfaz y de los demás recursos originales del
+Programa, así como todos los derechos no concedidos expresamente en este
+contrato.
+
+Este contrato le concede un derecho de uso; no le transfiere la propiedad del
+Programa ni parte alguna de ella.
+
+6. CONTENIDO EMPAQUETADO: LO QUE NO ES PROPIEDAD DEL TITULAR
+
+El Programa se entrega con textos bíblicos y con obras históricas que NO son
+obra del Titular y sobre los cuales el Titular no reclama ningún derecho.
+
+  a) Textos de dominio público. Las dos Biblias empaquetadas (la King James
+     Version y la Reina-Valera de 1909) y los textos históricos cuyo original y
+     cuya traducción son de dominio público por antigüedad se entregan como lo
+     que son: obra de dominio público. Usted puede extraerlos del Programa,
+     copiarlos y reutilizarlos libremente, sin pedir permiso al Titular y sin
+     que este contrato se lo impida.
+
+  b) Traducciones de terceros. Algunos de los credos y confesiones históricos
+     que acompañan al Programa se reproducen en traducciones modernas cuyos
+     derechos pertenecen a sus traductores o a sus editoriales. Se incluyen con
+     el crédito completo de su origen y sin alterar su texto. Cuando ha sido
+     necesario corregir una errata tipográfica de la edición de origen en una
+     referencia bíblica, la corrección se declara de forma expresa en la ficha
+     del módulo correspondiente. Este contrato NO le
+     concede ningún derecho sobre esas traducciones: lo que usted pueda hacer
+     con ellas depende de sus titulares, no del Titular de REFORMAMINI.
+
+La ficha de cada uno de estos textos, visible dentro del Programa en la gestión
+de módulos, declara su fuente exacta, su traductor cuando lo tiene, su editorial
+y su situación de derechos.
+
+7. MÓDULOS Y ARCHIVOS DEL USUARIO
+
+Los módulos, libros, documentos y archivos que usted importe al Programa siguen
+siendo suyos, o de quien corresponda. Obtenerlos y usarlos legalmente es su
+responsabilidad y no la del Titular.
+
+El Programa abre esos archivos en modo de solo lectura: nunca los modifica ni
+los reescribe. El Programa tampoco descifra módulos protegidos ni elude ninguna
+medida técnica de protección.
+
+Sus notas, resaltados, marcadores y preferencias son suyos, se guardan en su
+propio equipo y puede llevárselos o borrarlos cuando quiera.
+
+8. COMPONENTES DE TERCEROS
+
+El Programa incorpora bibliotecas de código y tipos de letra de terceros,
+distribuidos bajo sus propias licencias (MIT, Apache-2.0, SIL Open Font
+License y otras licencias permisivas). Esas licencias
+siguen aplicándose a esos componentes y no se ven alteradas por este contrato.
+
+El texto completo de dichas licencias se entrega con el Programa y puede
+consultarlo en Ajustes, Acerca de, Avisos de terceros.
+
+9. PRIVACIDAD Y AUSENCIA DE TELEMETRÍA
+
+El Programa no recoge, no almacena en servidores ajenos y no transmite ninguna
+información sobre usted ni sobre su uso del Programa, con la única excepción de
+la comprobación de actualizaciones descrita más abajo. No hay analítica, no hay
+identificadores de usuario, no hay publicidad y no hay perfiles.
+
+Todos sus datos (notas, resaltados, marcadores, módulos y preferencias) viven
+exclusivamente en su equipo.
+
+El único uso de red del Programa es la comprobación opcional de si existe una
+versión más reciente. En esa comprobación el Programa envía la versión
+instalada y, como en cualquier conexión a internet, su dirección IP queda
+registrada por el servidor consultado. No se envía ningún otro dato, y en
+particular no se envía nada sobre sus notas, sus módulos ni su uso del
+Programa. La comprobación puede desactivarse, y con ella desactivada el
+Programa no realiza ninguna conexión de red.
+
+10. AUSENCIA DE GARANTÍA
+
+El Programa se entrega "TAL CUAL", sin garantía de ninguna clase, expresa o
+implícita, incluidas sin limitación las garantías de comerciabilidad, de
+idoneidad para un propósito determinado y de ausencia de errores.
+
+El Titular no garantiza que el Programa funcione sin interrupciones ni fallos,
+ni que sea compatible con cualquier archivo o módulo que usted quiera abrir, ni
+que los resultados de su uso sean exactos o completos.
+
+11. LIMITACIÓN DE RESPONSABILIDAD
+
+En la medida máxima que permita la ley aplicable, el Titular no será responsable
+de ningún daño directo, indirecto, incidental, especial o consecuente derivado
+del uso o de la imposibilidad de uso del Programa, incluida la pérdida de datos,
+la pérdida de beneficios o la interrupción de actividad, aun cuando se le
+hubiera advertido de la posibilidad de tales daños.
+
+El Programa es gratuito. Usted es responsable de mantener copias de seguridad de
+sus propios datos.
+
+12. TERMINACIÓN
+
+Este contrato termina automáticamente si usted incumple cualquiera de sus
+condiciones. Al terminar, debe dejar de usar el Programa y desinstalarlo.
+
+Usted puede terminar este contrato en cualquier momento desinstalando el
+Programa. Sus datos personales permanecen en su equipo y son suyos; la
+terminación del contrato no le obliga a borrarlos ni faculta al Titular a
+acceder a ellos.
+
+Las secciones 5, 10 y 11 siguen vigentes después de la terminación.
+
+13. MARCA, LEY APLICABLE Y CONTACTO
+
+El nombre "REFORMAMINI" y el logotipo son marca del Titular y no se
+licencian con el Programa. El permiso de redistribución de la sección 3 no le
+autoriza a usar el nombre ni el logotipo para identificar productos, servicios o versiones
+distintas de las publicadas por el Titular.
+
+Este contrato se rige por las leyes de los Estados Unidos Mexicanos. Para
+cualquier controversia derivada de este contrato, las partes se someten
+expresamente a los tribunales de la Ciudad de México, Estados
+Unidos Mexicanos, renunciando a cualquier otro fuero que pudiera
+corresponderles por razón de su domicilio presente o futuro.
+
+"e-Sword" es marca de su respectivo titular. REFORMAMINI lee módulos en el formato
+que usa ese programa, pero no está afiliada a él, no cuenta con su respaldo ni
+con su patrocinio, y no incluye ni utiliza su código.
+
+Si alguna cláusula de este contrato resultara inválida o inaplicable, las
+restantes conservarán plena vigencia.
+
+Contacto: support@reformamini.com
+
+===============================================================================
+                                   ENGLISH
+===============================================================================
+
+1. SUBJECT AND ACCEPTANCE
+
+REFORMAMINI is a desktop application for Bible study, developed and published by
+its author (the "Licensor").
+
+This agreement governs the use of the REFORMAMINI program, including its executable
+code, its original resources and its documentation (the "Software").
+
+By installing, copying or using the Software you accept this agreement in full.
+If you do not accept it, do not install or use the Software.
+
+Each version of the Software is delivered with the version of this agreement
+in force at the time of its publication, which governs the use of that
+version of the Software. Installing a later version implies accepting the
+agreement that accompanies it.
+
+2. GRANT OF USE
+
+The Licensor grants you a free, perpetual, non-exclusive, worldwide license to
+install and use the Software, on any number of computers, with no registration,
+account or payment of any kind.
+
+Permitted use includes personal, devotional, family, academic, congregational
+and professional use.
+
+3. PERMITTED REDISTRIBUTION
+
+You may copy the Software's installer or portable version and give it to other
+people, provided that all three of the following conditions are met:
+
+  a) you pass it on unmodified, exactly as published by the Licensor;
+  b) you charge nothing for the Software, and you do not use it as the object
+     or pretext for a charge, including its delivery, installation or support
+     when what is actually being charged for is access to the Software.
+     Nothing here stops someone who provides their own service from charging
+     for their time, provided the Software itself is delivered free and
+     without condition; and
+  c) this agreement travels with the copy.
+
+This expressly covers copying it to a USB drive, handing it to an acquaintance
+or to a congregation on a device, and installing it on other people's computers
+free of charge.
+
+4. RESTRICTIONS
+
+Except to the extent that applicable law expressly permits it notwithstanding
+this restriction, you may not:
+
+  a) sell, rent, lease, lend for a fee or sublicense the Software, or charge any
+     amount whose object is access to the Software, under any label or
+     concept;
+  b) distribute it as part of a paid product or service, or include it in any
+     bundle that is sold;
+  c) modify, adapt, translate or create derivative works of the Software;
+  d) decompile, disassemble or reverse engineer the Software, or attempt to
+     obtain its source code by any means. This restriction does not extend to
+     extracting the public-domain content bundled with the Software, which
+     section 6(a) expressly authorises;
+  e) remove, obscure or alter any authorship, license or trademark notices
+     contained in the Software.
+
+5. INTELLECTUAL PROPERTY
+
+The Software is licensed, not sold. The Licensor retains ownership of the code,
+the interface design and the other original resources of the Software, together
+with all rights not expressly granted in this agreement.
+
+This agreement grants you a right of use; it does not transfer ownership of the
+Software or any part of it.
+
+6. BUNDLED CONTENT: WHAT THE LICENSOR DOES NOT OWN
+
+The Software ships with biblical texts and historical works that are NOT the
+Licensor's work and over which the Licensor claims no rights.
+
+  a) Public domain texts. The two bundled Bibles (the King James Version and the
+     1909 Reina-Valera) and those historical texts whose original and whose
+     translation are in the public domain by age are delivered as exactly that:
+     public domain work. You may extract them from the Software, copy them and
+     reuse them freely, without asking the Licensor for permission and without
+     this agreement standing in your way.
+
+  b) Third-party translations. Some of the historical creeds and confessions
+     that accompany the Software are reproduced in modern translations whose
+     rights belong to their translators or publishers. They are included with
+     full credit to their origin and without altering their text. When it has
+     been necessary to correct a typographical erratum in a Scripture
+     reference from the source edition, the correction is expressly declared
+     in that module's record. This agreement grants you
+     NO rights over those translations: what you may do with them is up to their
+     rights holders, not up to the Licensor of REFORMAMINI.
+
+Each of these texts carries a record, visible inside the Software under module
+management, stating its exact source, its translator where it has one, its
+publisher and its rights status.
+
+7. USER MODULES AND FILES
+
+The modules, books, documents and files you import into the Software remain
+yours, or belong to whoever owns them. Obtaining and using them lawfully is your
+responsibility and not the Licensor's.
+
+The Software opens those files read-only: it never modifies or rewrites them.
+The Software also does not decrypt protected modules or circumvent any technical
+protection measure.
+
+Your notes, highlights, bookmarks and preferences are yours, are stored on your
+own computer, and you may take them away or delete them whenever you wish.
+
+8. THIRD-PARTY COMPONENTS
+
+The Software incorporates third-party code libraries and typefaces, distributed
+under their own licenses (MIT, Apache-2.0, the SIL Open Font License and other
+permissive licenses). Those licenses
+continue to apply to those components and are not altered by this agreement.
+
+The full text of those licenses is delivered with the Software and can be read
+under Settings, About, Third-party notices.
+
+9. PRIVACY AND ABSENCE OF TELEMETRY
+
+The Software does not collect, does not store on anyone else's servers and does
+not transmit any information about you or about your use of the Software,
+except for the update check described below. There is no analytics, there are
+no user identifiers, there is no advertising and there are no profiles.
+
+All your data (notes, highlights, bookmarks, modules and preferences) lives
+exclusively on your own computer.
+
+The Software's only use of the network is the optional check for whether a newer
+version exists. In that check the Software sends the installed version and, as
+with any internet connection, your IP address is logged by the server it
+contacts. No other data is sent, and in particular nothing about your notes,
+your modules or your use of the Software is sent. That check can be turned off,
+and with it off the Software makes no network connection at all.
+
+10. NO WARRANTY
+
+The Software is provided "AS IS", without warranty of any kind, express or
+implied, including without limitation the warranties of merchantability, fitness
+for a particular purpose and non-infringement.
+
+The Licensor does not warrant that the Software will run uninterrupted or
+error-free, that it will be compatible with any file or module you wish to open,
+or that the results of its use will be accurate or complete.
+
+11. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law, the Licensor shall not be
+liable for any direct, indirect, incidental, special or consequential damages
+arising out of the use of or inability to use the Software, including loss of
+data, loss of profits or business interruption, even if advised of the
+possibility of such damages.
+
+The Software is free of charge. You are responsible for keeping backups of your
+own data.
+
+12. TERMINATION
+
+This agreement terminates automatically if you breach any of its conditions.
+Upon termination you must stop using the Software and uninstall it.
+
+You may terminate this agreement at any time by uninstalling the Software. Your
+personal data remains on your computer and belongs to you; termination neither
+obliges you to delete it nor entitles the Licensor to access it.
+
+Sections 5, 10 and 11 survive termination.
+
+13. TRADEMARK, GOVERNING LAW AND CONTACT
+
+The name "REFORMAMINI" and the logo are trademarks of the Licensor
+and are not licensed with the Software. The redistribution permission in section 3 does not
+authorise you to use the name or the logo to identify products, services or
+versions other than those published by the Licensor.
+
+This agreement is governed by the laws of the United Mexican States. For any
+dispute arising from this agreement, the parties expressly submit to the courts
+of Mexico City, United Mexican States, waiving any other
+venue that might apply to them by reason of their present or future domicile.
+
+"e-Sword" is a trademark of its respective owner. REFORMAMINI reads modules in the
+format that program uses, but is not affiliated with it, does not carry its
+endorsement or sponsorship, and does not include or use its code.
+
+If any clause of this agreement is held invalid or unenforceable, the remaining
+clauses shall remain in full force.
+
+Contact: support@reformamini.com

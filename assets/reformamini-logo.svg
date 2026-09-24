@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17C1AD"/><stop offset="0.52" stop-color="#0D9488"/><stop offset="1" stop-color="#0A6A62"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.06" r="0.85"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/><stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.15" y2="1"><stop offset="0" stop-color="#FBE6A6"/><stop offset="0.38" stop-color="#DEB465"/><stop offset="0.72" stop-color="#C2933B"/><stop offset="1" stop-color="#8A5C1C"/></linearGradient>
+    <linearGradient id="goldFlame" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9A8"/><stop offset="0.45" stop-color="#E6B24F"/><stop offset="1" stop-color="#B5811F"/></linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0.2" y2="1"><stop offset="0" stop-color="#FFFDF6"/><stop offset="1" stop-color="#E7DCC1"/></linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFBEC"/><stop offset="1" stop-color="#F4D58A"/></linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D69A47"/><stop offset="1" stop-color="#9A6420"/></linearGradient>
+    <radialGradient id="gflame" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFEFC2" stop-opacity="0.85"/><stop offset="0.55" stop-color="#E3A84E" stop-opacity="0.42"/><stop offset="1" stop-color="#C2933B" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.6 0"/></filter>
+    <clipPath id="clip"><rect x="0" y="0" width="1024" height="1024" rx="228"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#glow)"/>
+    <rect width="1024" height="1024" filter="url(#grain)" opacity="0.06"/>
+
+    <!-- Rayos -->
+    <g fill="url(#gold)" opacity="0.28">
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(0 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(30 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(60 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(90 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(120 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(150 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(180 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(210 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(240 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(270 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(300 512 512)"/>
+      <path d="M506 262 L518 262 L514 150 L510 150 Z" transform="rotate(330 512 512)"/>
+    </g>
+    
+    <ellipse cx="512" cy="784" rx="290" ry="28" fill="#063C36" opacity="0.30" filter="url(#soft)"/>
+    
+    <!-- Silhouette -->
+    <path d="M 246 458 C 246 448 252 440 260 435 C 320 395 420 390 504 410 L 520 410 C 604 390 704 395 764 435 C 772 440 778 448 778 458 L 778 728 C 778 738 772 746 764 751 C 704 711 604 706 520 726 L 504 726 C 420 706 320 711 260 751 C 252 746 246 738 246 728 Z" transform="translate(512 390) scale(1.04) translate(-512 -390)" fill="url(#cover)"/>
+    
+    <!-- Bookmark -->
+    <path d="M 504 720 L 520 720 L 520 832 L 512 812 L 504 832 Z" fill="url(#goldFlame)"/>
+    
+    <!-- Pages -->
+    <path d="M 504 410 C 420 390 320 395 260 435 C 252 440 246 448 246 458 L 246 728 C 246 738 252 746 260 751 C 320 711 420 706 504 726 L 504 410 Z" fill="url(#page)"/>
+    <path d="M 520 410 C 604 390 704 395 764 435 C 772 440 778 448 778 458 L 778 728 C 778 738 772 746 764 751 C 704 711 604 706 520 726 L 520 410 Z" fill="url(#page)"/>
+    
+    <!-- Golden Edges -->
+    <path d="M 260 739 C 320 699 420 694 504 714 M 260 727 C 320 687 420 682 504 702 M 764 739 C 704 699 604 694 520 714 M 764 727 C 704 687 604 682 520 702" fill="none" stroke="#E3D4B0" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+    
+    <rect x="486" y="408" width="52" height="324" fill="#6B5A34" opacity="0.12" filter="url(#soft)"/>
+    <rect x="503" y="405" width="18" height="326" rx="9" fill="url(#gold)"/>
+    <line x1="512" y1="415" x2="512" y2="720" stroke="#FFF6DE" stroke-opacity="0.45" stroke-width="3"/>
+    
+    <!-- Text Lines -->
+    <path d="M 290 470 C 340 445 420 440 485 455 M 290 505 C 340 480 420 475 485 490 M 290 540 C 340 515 420 510 485 525 M 290 575 C 340 550 420 545 485 560 M 290 610 C 340 585 420 580 485 595 M 290 645 C 340 620 420 615 485 630 M 290 680 C 340 655 420 650 485 665 M 734 470 C 684 445 604 440 539 455 M 734 505 C 684 480 604 475 539 490 M 734 540 C 684 515 604 510 539 525 M 734 575 C 684 550 604 545 539 560 M 734 610 C 684 585 604 580 539 595 M 734 645 C 684 620 604 615 539 630 M 734 680 C 684 655 604 650 539 665" stroke="#0E8A7E" stroke-width="7" stroke-linecap="round" opacity="0.4" fill="none"/>
+    
+    <path d="M 260 435 C 320 395 420 390 504 410 M 520 410 C 604 390 704 395 764 435" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="4"/>
+    
+    <!-- Flame Bg -->
+    <circle cx="512" cy="420" r="208" fill="url(#gflame)"/>
+    
+    <path d="M512 256 C552 340 596 384 596 462 C596 536 558 582 512 600 C466 582 428 536 428 462 C428 398 458 364 488 396 C474 338 488 298 512 256 Z" fill="url(#goldFlame)"/>
+    <path d="M512 342 C540 402 566 430 566 476 C566 514 542 542 512 560 C482 542 458 514 458 476 C458 442 478 424 496 446 C488 410 498 380 512 342 Z" fill="url(#cream)"/>
+    <path d="M512 360 C501 398 501 432 512 474 C521 434 521 400 512 360 Z" fill="#FFFFFF" opacity="0.5"/>
+  </g>
+  
+  <rect x="3" y="3" width="1018" height="1018" rx="226" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3"/>
+  <rect x="3" y="3" width="1018" height="1018" rx="226" fill="none" stroke="#063C36" stroke-opacity="0.22" stroke-width="1.5" transform="translate(0 2)"/>
+</svg>
