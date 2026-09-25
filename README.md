@@ -11,7 +11,7 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 >
 > The name comes from the Latin Vulgate of that verse: *sed reformamini in novitate sensus vestri*. That renewal comes from studying the Word.
 
-**Free, forever.** If REFORMAMINI is useful to you, you can support its development with a voluntary donation: **[ko-fi.com/reformamini](https://ko-fi.com/reformamini)**. Learn more at **[reformamini.com](https://reformamini.com)**.
+**Free, forever.** REFORMAMINI is the work of one person. If REFORMAMINI is useful to you, you can support its development with a voluntary donation: **[ko-fi.com/reformamini](https://ko-fi.com/reformamini)**. Learn more at **[reformamini.com](https://reformamini.com)**.
 
 ---
 
