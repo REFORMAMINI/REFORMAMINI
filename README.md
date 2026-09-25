@@ -17,7 +17,7 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 
 ## ⬇️ Download
 
-**REFORMAMINI is in public beta** (version 0.1.x). It is ready for daily use, but still being tested: it may fail, so do not trust it yet with your most important notes, and a rare module may not read quite right. It becomes the stable 1.0 once the beta period ends. Get it from the [latest release](https://github.com/REFORMAMINI/REFORMAMINI/releases/latest):
+**REFORMAMINI is in public beta** (version 0.1.x). It is ready for daily use; a rare module may not read quite right. It becomes the stable 1.0 once the beta period ends. Get it from the [latest release](https://github.com/REFORMAMINI/REFORMAMINI/releases/latest):
 
 - **Windows · installer** — Windows 10 or later, with the interface engine included.
 - **Windows · portable** — a folder to carry on a USB drive, with your data kept inside it.
