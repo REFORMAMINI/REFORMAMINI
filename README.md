@@ -4,7 +4,7 @@
 
 # REFORMAMINI
 
-A modern, lightweight, offline-first desktop app for **anyone who wants to study the Word of God**. It reads legacy **e-Sword modules** natively, turns Scripture citations into clickable links (including inside your own PDFs and EPUBs), renders Greek and Hebrew interlinear text with Strong's numbers and readable morphology, keeps your notes as plain Markdown files on disk, and wraps it all in a clean, distraction-free interface in **English and Spanish**.
+A modern, lightweight, offline-first desktop app for **anyone who wants to study the Word of God**. It reads legacy **e-Sword modules** natively, turns Scripture citations into clickable links (including inside your own books and EPUBs), renders Greek and Hebrew interlinear text with Strong's numbers and readable morphology, keeps your notes as plain Markdown files on disk, and wraps it all in a clean, distraction-free interface in **English and Spanish**.
 
 > *«And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may approve what the will of God is, that which is good and pleasing and perfect.»*
 > Romans 12:2 (LSB)
@@ -77,7 +77,7 @@ Every feature listed here is built and working in the app.
 * 🪟 **Dockable panel workspace.** Commentary, dictionary, notes and Bible panels are tabs you can drag to any edge, pin, reorder or fold into a side rail. Global interface zoom included.
 * 📊 **Parallel view.** Two to four versions side by side with verse-synchronized scrolling.
 * 🏛️ **Interlinear view.** Word to original to Strong's number to morphology, rendered from the tagged text rather than dumped HTML, with hover tooltips that expand morphology codes into plain language. Where a module marks them, the same tooltip says how that word is transmitted across editions of the original text, and how each edition spells it.
-* 🔗 **Bilingual reference engine.** Detects Scripture citations in English and Spanish across commentaries, notes, books, PDFs and EPUBs. Click opens the passage; hover shows a preview in the Bible version you choose.
+* 🔗 **Bilingual reference engine.** Detects Scripture citations in English and Spanish across commentaries, notes, books and EPUBs. Click opens the passage; hover shows a preview in the Bible version you choose.
 * 🕊️ **Coram Deo.** A dedicated reader for e-Sword devotional modules, by month and day.
 * 🌍 **Atlas.** Maps, charts and timelines extracted from map modules, with zoom, pan and section navigation.
 
