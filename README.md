@@ -17,7 +17,7 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 
 ## ⬇️ Download
 
-**REFORMAMINI 0.1.0 is a beta.** It is ready for daily use, but a rare module may not read quite right. Get it from the [latest release](https://github.com/REFORMAMINI/REFORMAMINI/releases/latest):
+**REFORMAMINI is in public beta** (version 0.1.x). It is ready for daily use, but still being tested: it may fail, so do not trust it yet with your most important notes, and a rare module may not read quite right. It becomes the stable 1.0 once the beta period ends. Get it from the [latest release](https://github.com/REFORMAMINI/REFORMAMINI/releases/latest):
 
 - **Windows · installer** — Windows 10 or later, with the interface engine included.
 - **Windows · portable** — a folder to carry on a USB drive, with your data kept inside it.
@@ -96,11 +96,11 @@ Every feature listed here is built and working in the app.
 * 🎓 **Learning Center.** An offline wiki-style guide (glossary, historical-grammatical method, study pedagogy), a first-visit introduction for every screen, and guided tours, all written in plain language and available in both languages.
 * 🎨 **Appearance and reading settings.** Four themes (Light, Midnight, Cream, Azure), a custom accent color that adapts to each theme, reading typography (a choice of seven bundled reading faces, plus size, line spacing, column width and justification), and red letters for the words of Jesus. The parallel view keeps a face per column, and the document viewer keeps its own.
 * 📁 **A library folder you can see.** Your modules and notes live in a visible folder (`Documents/REFORMAMINI` by default, changeable), so backing up or syncing them is your call.
-* 🔄 **Signed updates on your terms.** REFORMAMINI can check for a new version (on startup if you turn it on, or whenever you press "Check now"), download it in the background and tell you when it is ready; you decide when to restart. The check is off by default, and it is the only thing that ever uses the network.
+* 🔄 **Signed updates on your terms.** REFORMAMINI checks for a new version on startup (you can turn the check off in Settings, or press "Check now" any time), downloads it in the background and tells you when it is ready; you decide when to restart. It is the only thing that ever uses the network.
 
 ### Principles
 
-* 🛡️ **Absolute privacy, offline-first.** REFORMAMINI collects nothing, stores nothing on anyone else's servers and sends nothing anywhere. There is no telemetry, no analytics, no user identifier, no advertising and no account. Your notes, highlights and modules live only on your computer. The one network use is the opt-in update check, which can be turned off.
+* 🛡️ **Absolute privacy, offline-first.** REFORMAMINI collects nothing, stores nothing on anyone else's servers and sends nothing anywhere. There is no telemetry, no analytics, no user identifier, no advertising and no account. Your notes, highlights and modules live only on your computer. The one network use is the update check, which you can turn off in Settings.
 * 🔒 **Your modules are never modified.** They are opened strictly read-only; your notes and highlights are stored separately.
 * ⚡ **Low footprint.** Built on Tauri 2 (Rust) and SvelteKit so it runs on older or donated hardware.
 
@@ -136,7 +136,7 @@ You may not sell it, charge for it, bundle it into a paid product, or modify it.
 
 The full terms are in [`LICENSE`](LICENSE), in English and Spanish. You can also read them inside the app, under Settings, About.
 
-**What REFORMAMINI does not own.** The two bundled Bibles are in the public domain and you may extract and reuse them freely. Some of the bundled historic creeds and confessions are reproduced in modern translations whose rights belong to their translators and publishers; the use agreement grants no rights over those. Each text states its own source and rights inside the app.
+**What REFORMAMINI does not own.** The two bundled Bibles are in the public domain: they are not REFORMAMINI's work, and they travel inside the app as part of it. The use agreement grants no right to extract them or separate them from the app; what you may do with their text, being public domain, depends on the law and not on the agreement. Some of the bundled historic creeds and confessions are reproduced in modern translations whose rights belong to their translators and publishers; the use agreement grants no rights over those. Each text states its own source and rights inside the app.
 
 The name and logo "REFORMAMINI" are reserved and are not licensed with the app.
 

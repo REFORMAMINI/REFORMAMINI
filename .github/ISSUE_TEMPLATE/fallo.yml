@@ -1,0 +1,115 @@
+name: Fallo / Bug report
+description: Algo no funciona como esperabas. Something does not work as you expect.
+title: "[Fallo] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por probar REFORMAMINI. Rellena los campos con el mayor detalle posible: un reporte con pasos concretos se puede reproducir y arreglar.
+
+        **Esta incidencia es pública.** No pegues capturas con tus notas personales ni rutas que incluyan tu nombre de usuario.
+
+        *Thank you for testing REFORMAMINI. Fill in the fields with as much detail as possible: a report with concrete steps can be reproduced and fixed. This issue is public: do not paste screenshots with your personal notes or paths that show your username.*
+  - type: input
+    id: resumen
+    attributes:
+      label: Nombre o resumen del fallo / Name or summary of the bug
+      description: Una frase corta que lo describa (p. ej. "el globo de la cita se sale de la ventana").
+      placeholder: "El globo de la cita se sale de la ventana"
+    validations:
+      required: true
+  - type: dropdown
+    id: pantalla
+    attributes:
+      label: Pantalla o modo / Screen or mode
+      description: Dónde ocurre el fallo.
+      options:
+        - Lector de Biblia / Bible reader
+        - Paralelo / Parallel
+        - Interlineal / Interlinear
+        - Comentario / Commentary
+        - Diccionario / Dictionary
+        - Atlas
+        - Búsqueda / Search
+        - Tolle lege (libros, PDF, EPUB)
+        - Scriptorium (notas / notes)
+        - Coram Deo (devocional / devotional)
+        - Ajustes / Settings
+        - Asistente de primer arranque / First-run assistant
+        - Otro / Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión de REFORMAMINI / REFORMAMINI version
+      description: "Ajustes › Acerca de / Settings › About"
+      placeholder: "0.1.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: Sistema operativo / Operating system
+      options:
+        - Windows 10
+        - Windows 11
+        - Linux · Ubuntu / Debian
+        - Linux · Arch
+        - Linux · Fedora
+        - Otro / Other
+    validations:
+      required: true
+  - type: input
+    id: modulo
+    attributes:
+      label: Módulo que usabas / Module in use
+      description: El nombre exacto del módulo (p. ej. cb-MHenry.cmtx, NVI.bbli) y de dónde lo descargaste, si no es de fábrica. / Exact module name (e.g. cb-MHenry.cmtx, NVI.bbli) and where you downloaded it, if it is not bundled.
+      placeholder: "cb-MHenry.cmtx (Bible Support)"
+    validations:
+      required: false
+  - type: textarea
+    id: proporciona_modulo
+    attributes:
+      label: Proporciona el módulo / Provide the module
+      description: Si el fallo está en un módulo concreto, compártelo para poder reproducirlo. Adjúntalo arrastrando un .zip con el archivo al cuadro de la incidencia, o pega un enlace; si tiene derechos y no puedes compartirlo, dilo. / If the bug is in a specific module, share it so it can be reproduced. Attach a .zip with the file by dragging it into the issue box, or paste a link; if it is copyrighted and you cannot share it, say so.
+      placeholder: "Lo adjunto como modulo.zip / lo descargué de ... / no puedo compartirlo"
+    validations:
+      required: false
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Cómo replicar el error / How to reproduce
+      description: Paso a paso, con el libro, capítulo y versículo concretos cuando aplique. / Step by step, with the exact book, chapter and verse where it applies.
+      placeholder: |
+        1. Abro Juan 3:16
+        2. Pulso el versículo 16
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué esperabas y qué ocurrió / What you expected and what happened
+    validations:
+      required: true
+  - type: textarea
+    id: captura
+    attributes:
+      label: Captura o registro / Screenshot or log
+      description: Arrastra aquí una imagen o pega el texto del registro, si ayuda. / Drag an image here or paste the log text, if it helps.
+    validations:
+      required: false
+  - type: checkboxes
+    id: legal
+    attributes:
+      label: Antes de enviar / Before submitting
+      options:
+        - label: "No envío material (módulos, imágenes, texto) del que no tenga derechos. / I am not submitting material (modules, images, text) that I do not have the rights to."
+          required: true
+        - label: "Entiendo que lo que proponga en esta incidencia puede usarse libremente en REFORMAMINI. / I understand that what I propose in this issue may be used freely in REFORMAMINI."
+          required: true
+        - label: "Sé que esta incidencia es pública y no incluyo datos personales. / I know this issue is public and I am not including personal data."
+          required: true

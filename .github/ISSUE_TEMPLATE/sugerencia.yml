@@ -1,0 +1,45 @@
+name: Sugerencia / Suggestion
+description: Una idea para mejorar REFORMAMINI. An idea to improve REFORMAMINI.
+title: "[Sugerencia] "
+labels:
+  - mejora
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar REFORMAMINI.
+
+        **Esta incidencia es pública.** No pegues capturas con tus notas personales ni rutas que incluyan tu nombre de usuario.
+
+        *Thank you for helping improve REFORMAMINI. This issue is public: do not paste screenshots with your personal notes or paths that show your username.*
+  - type: input
+    id: version
+    attributes:
+      label: Versión de REFORMAMINI / REFORMAMINI version
+      description: "Ajustes › Acerca de / Settings › About"
+      placeholder: "0.1.2"
+    validations:
+      required: false
+  - type: textarea
+    id: idea
+    attributes:
+      label: Tu idea / Your idea
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué problema resolvería / What problem it would solve
+    validations:
+      required: false
+  - type: checkboxes
+    id: legal
+    attributes:
+      label: Antes de enviar / Before submitting
+      options:
+        - label: "No envío material (módulos, imágenes, texto) del que no tenga derechos. / I am not submitting material (modules, images, text) that I do not have the rights to."
+          required: true
+        - label: "Entiendo que lo que proponga en esta incidencia puede usarse libremente en REFORMAMINI. / I understand that what I propose in this issue may be used freely in REFORMAMINI."
+          required: true
+        - label: "Sé que esta incidencia es pública y no incluyo datos personales. / I know this issue is public and I am not including personal data."
+          required: true
