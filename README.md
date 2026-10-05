@@ -114,6 +114,7 @@ Every feature listed here is built and working in the app.
 
 REFORMAMINI is in active development toward version 1.0. What is still ahead:
 
+* 🍎 **macOS:** a build for Mac is coming soon. There is nothing to download yet.
 * 🏷️ **Your own tags on highlights:** gather what you underlined in Romans, Ephesians and Titus under one theme.
 * 📤 **Exporting Scripture passages:** notes already export to Markdown and to PDF (from the note's Export menu), and the Atlas exports as an image; a formatted PDF export straight from the Bible reader is planned.
 * 🌐 **Translation, OCR and audio:** exploratory, after 1.0.
@@ -122,7 +123,7 @@ REFORMAMINI is in active development toward version 1.0. What is still ahead:
 
 ## 💻 What you need
 
-* **Windows** 10 or later, **Linux**, or **macOS** (coming soon)
+* **Windows** 10 or later, or **Linux**
 * No account, no registration, no internet connection required
 * It runs on older and donated hardware, which is a design goal and not an afterthought
 
