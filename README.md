@@ -22,6 +22,7 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 - **Windows · installer** — Windows 10 or later, with the interface engine included.
 - **Windows · portable** — a folder to carry on a USB drive, with your data kept inside it.
 - **Linux · AppImage** — a single file for Debian, Ubuntu, Arch and Fedora.
+- **macOS · Coming soon.** A build for Mac is on the way. There is nothing to download yet.
 
 Each download is accompanied by its **SHA-256 fingerprint** and the release notes. Updates are signed and you decide when to install them.
 
@@ -56,11 +57,14 @@ REFORMAMINI is built to **democratize systematic Bible study for everyone**. Whe
 ### 📚 Parallel Bible Versions (Side-by-Side Comparison)
 ![Parallel View](screenshots/paralelo.webp)
 
-### ✍️ Your Own Notes (Scriptorium)
-![Notes in Markdown](screenshots/scriptorium.webp)
-
 ### 📖 Document Viewer (Tolle lege)
 ![e-Sword book open as a two-page spread](screenshots/tolle-lege.webp)
+
+### 🌍 Charts and maps
+![Atlas open on a map of Paul's missionary journeys](screenshots/atlas.webp)
+
+### ✍️ Your Own Notes (Scriptorium)
+![Notes in Markdown](screenshots/scriptorium.webp)
 
 ### 🕊️ Devotional Study (Coram Deo)
 ![Coram Deo Devotionals](screenshots/coram-deo.webp)
@@ -118,7 +122,7 @@ REFORMAMINI is in active development toward version 1.0. What is still ahead:
 
 ## 💻 What you need
 
-* **Windows** 10 or later, or **Linux**
+* **Windows** 10 or later, **Linux**, or **macOS** (coming soon)
 * No account, no registration, no internet connection required
 * It runs on older and donated hardware, which is a design goal and not an afterthought
 
