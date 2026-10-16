@@ -21,8 +21,8 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 
 - **Windows · installer** — Windows 10 or later, with the interface engine included.
 - **Windows · portable** — a folder to carry on a USB drive, with your data kept inside it.
-- **Linux · AppImage** — a single file for Debian, Ubuntu, Arch and Fedora.
 - **macOS · disk image (.dmg)** — opens and installs the app on your Mac.
+- **Linux · AppImage** — a single file for Debian, Ubuntu, Arch and Fedora.
 
 Each download is accompanied by its **SHA-256 fingerprint** and the release notes. Updates are signed and you decide when to install them.
 
