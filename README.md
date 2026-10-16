@@ -17,18 +17,23 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 
 ## ⬇️ Download
 
-**REFORMAMINI is in public beta** (version 0.1.x). It is ready for daily use; a rare module may not read quite right. It becomes the stable 1.0 once the beta period ends. Get it from the [latest release](https://github.com/REFORMAMINI/REFORMAMINI/releases/latest):
+**REFORMAMINI is in public beta** (the whole 0.x series, leading up to version 1.0). It is ready for daily use; a rare module may not read quite right. It becomes the stable 1.0 once the beta period ends. Get it from the [latest release](https://github.com/REFORMAMINI/REFORMAMINI/releases/latest):
 
 - **Windows · installer** — Windows 10 or later, with the interface engine included.
 - **Windows · portable** — a folder to carry on a USB drive, with your data kept inside it.
 - **Linux · AppImage** — a single file for Debian, Ubuntu, Arch and Fedora.
-- **macOS · Coming soon.** A build for Mac is on the way. There is nothing to download yet.
+- **macOS · disk image (.dmg)** — opens and installs the app on your Mac.
 
 Each download is accompanied by its **SHA-256 fingerprint** and the release notes. Updates are signed and you decide when to install them.
 
-## 🪟 A note about the Windows warning
+## ⚠️ A note about the warnings you may see
 
-When you open the installer, Windows may show a blue box saying **"Windows protected your PC"**. This is normal for a new program that does not yet carry a paid commercial signing certificate. **It does not mean the file is a virus, and you do not need to disable any protection.** To continue, click **"More info"** and then **"Run anyway"**. If you want to be sure the file is the one we published, compare its SHA-256 fingerprint with the one shown next to the download.
+Neither the Windows installer nor the Mac app carries a paid signing certificate yet, so your system may show a warning. **It does not mean the file is a virus, and you do not need to disable any protection.**
+
+- **Windows:** a blue box may say **"Windows protected your PC"**. Click **"More info"** and then **"Run anyway"**.
+- **macOS:** the system may say the **developer cannot be identified**. Right-click the app, choose **"Open"**, and then click **"Open"** in that window.
+
+If you want to be sure the file is the one we published, compare its SHA-256 fingerprint with the one shown next to the download.
 
 ## 🐞 Report a problem
 
@@ -36,7 +41,7 @@ This beta is meant to be tested with real modules and real study. If something d
 
 - **Bugs and suggestions:** [github.com/REFORMAMINI/REFORMAMINI/issues](https://github.com/REFORMAMINI/REFORMAMINI/issues)
 
-When you report a problem, tell us which version of REFORMAMINI you use, whether you are on Windows or Linux, which module you were reading, the exact steps to reproduce it and what you expected to happen. The more precise the report, the faster it can be fixed.
+When you report a problem, tell us which version of REFORMAMINI you use, whether you are on Windows, macOS or Linux, which module you were reading, the exact steps to reproduce it and what you expected to happen. The more precise the report, the faster it can be fixed.
 
 ---
 
@@ -114,7 +119,6 @@ Every feature listed here is built and working in the app.
 
 REFORMAMINI is in active development toward version 1.0. What is still ahead:
 
-* 🍎 **macOS:** a build for Mac is coming soon. There is nothing to download yet.
 * 🏷️ **Your own tags on highlights:** gather what you underlined in Romans, Ephesians and Titus under one theme.
 * 📤 **Exporting Scripture passages:** notes already export to Markdown and to PDF (from the note's Export menu), and the Atlas exports as an image; a formatted PDF export straight from the Bible reader is planned.
 * 🌐 **Translation, OCR and audio:** exploratory, after 1.0.
@@ -123,7 +127,7 @@ REFORMAMINI is in active development toward version 1.0. What is still ahead:
 
 ## 💻 What you need
 
-* **Windows** 10 or later, or **Linux**
+* **Windows** 10 or later, **macOS** or **Linux**
 * No account, no registration, no internet connection required
 * It runs on older and donated hardware, which is a design goal and not an afterthought
 
