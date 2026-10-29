@@ -24,7 +24,7 @@ body:
     id: pantalla
     attributes:
       label: Pantalla o modo / Screen or mode
-      description: Dónde ocurre el fallo.
+      description: "Dónde ocurre el fallo. Si la app no llegó a abrirse, elige «No se pudo abrir la app»."
       options:
         - Lector de Biblia / Bible reader
         - Paralelo / Parallel
@@ -38,6 +38,7 @@ body:
         - Coram Deo (devocional / devotional)
         - Ajustes / Settings
         - Asistente de primer arranque / First-run assistant
+        - No se pudo abrir la app / App did not open
         - Otro / Other
     validations:
       required: true
@@ -49,17 +50,12 @@ body:
       placeholder: "0.1.2"
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: sistema
     attributes:
       label: Sistema operativo / Operating system
-      options:
-        - Windows 10
-        - Windows 11
-        - Linux · Ubuntu / Debian
-        - Linux · Arch
-        - Linux · Fedora
-        - Otro / Other
+      description: "Se rellena sola desde la app; corrígela si hace falta. / Filled in by the app; edit it if needed."
+      placeholder: "Windows 11 · 10.0.22631"
     validations:
       required: true
   - type: input
