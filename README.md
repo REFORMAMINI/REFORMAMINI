@@ -99,8 +99,8 @@ Every feature listed here is built and working in the app.
 
 ### Getting started and staying oriented
 
-* 🚀 **First-run assistant.** A six-step wizard that opens in your system language, lets you pick the interface language, theme and library folder, and imports your modules by drag and drop.
-* 📘 **User manual.** The installer and the portable folder ship a bilingual user manual (Word, with screenshots, and a plain-text copy) that covers every screen and control. How to study the Bible lives in the in-app Study Guide, not in that file.
+* 🚀 **First-run assistant.** A seven-step wizard that opens in your system language, lets you pick the interface language, theme and library folder, and imports your modules by drag and drop.
+* 📘 **User manual.** The installer and the portable folder ship a bilingual user manual (PDF, with screenshots, and a plain-text copy) that covers every screen and control. You can also [read it here](MANUAL-DE-USUARIO.pdf). How to study the Bible lives in the in-app Study Guide, not in that file.
 * 📦 **Batteries included.** Ships with the King James Version, the Reina-Valera 1909 and twenty historic creeds and confessions of the church, in English and Spanish, so the app is useful before you import anything.
 * 🎓 **Learning Center.** An offline wiki-style guide (glossary, historical-grammatical method, study pedagogy), a first-visit introduction for every screen, and guided tours, all written in plain language and available in both languages.
 * 🎨 **Appearance and reading settings.** Four themes (Light, Midnight, Cream, Azure), a custom accent color that adapts to each theme, reading typography (a choice of seven bundled reading faces, plus size, line spacing, column width and justification), and red letters for the words of Jesus. The parallel view keeps a face per column, and the document viewer keeps its own.
