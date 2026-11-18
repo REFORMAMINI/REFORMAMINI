@@ -63,10 +63,10 @@ REFORMAMINI is built to **democratize systematic Bible study for everyone**. Whe
 ![Parallel View](screenshots/paralelo.webp)
 
 ### 📖 Document Viewer (Tolle lege)
-![e-Sword book open as a two-page spread](screenshots/tolle-lege.webp)
+![EPUB open in Tolle lege with clickable citations](screenshots/tolle-lege.webp)
 
 ### 🌍 Charts and maps
-![Atlas open on a map of Paul's missionary journeys](screenshots/atlas.webp)
+![Atlas open on a map of Greece and the Aegean Sea](screenshots/atlas.webp)
 
 ### ✍️ Your Own Notes (Scriptorium)
 ![Notes in Markdown](screenshots/scriptorium.webp)
@@ -88,14 +88,14 @@ Every feature listed here is built and working in the app.
 * 🏛️ **Interlinear view.** Word to original to Strong's number to morphology, rendered from the tagged text rather than dumped HTML, with hover tooltips that expand morphology codes into plain language. Where a module marks them, the same tooltip says how that word is transmitted across editions of the original text, and how each edition spells it.
 * 🔗 **Bilingual reference engine.** Detects Scripture citations in English and Spanish across commentaries, notes, books and EPUBs. Click opens the passage; hover shows a preview in the Bible version you choose.
 * 🕊️ **Coram Deo.** A dedicated reader for e-Sword devotional modules, by month and day.
-* 🌍 **Atlas.** Maps, charts and timelines extracted from map modules, with zoom, pan and section navigation.
+* 🌍 **Atlas.** Maps, charts and timelines extracted from map modules, with zoom, pan, section navigation and the same dockable study panels (commentary, dictionary and notes).
 
 ### Your own material
 
-* 📖 **Tolle lege.** A unified book reader for e-Sword reference books, **PDF** files (rendered with PDF.js in a two-page book frame) and **EPUB** files (reflowable, paginated on the fly, with a navigable table of contents). Scripture citations inside all three are clickable and drive the Bible panel.
+* 📖 **Tolle lege.** A unified book reader for e-Sword reference books, **PDF** files (rendered with PDF.js, page by page or as a two-page spread) and **EPUB** files (continuous reading by default, with a navigable table of contents and an optional paginated book view). Scripture citations inside all three are clickable and drive the Bible panel.
 * 📝 **Scriptorium.** Notes are plain **Markdown files on disk**, one per note, with a native editor, tags, and an optional link to a passage. Nothing is locked inside a database you cannot read.
 * 🖍️ **Highlights and bookmarks.** Six highlight colors with a selection popup, per-verse annotations, and collections gathered by book. Highlights work in the Bible, in books, in PDFs and in EPUBs.
-* 🔍 **A global search that forgives.** Full-text search (SQLite FTS5) across Bibles, commentaries, dictionaries, books **and your own notes**, with a background index that rebuilds as your library grows. Quote a verse from memory and it still finds it: if no result matches every word, the closest verses come back clearly marked as approximate. It counts how many times a word appears, verse by verse and book by book, and it reads Greek and Hebrew the way people actually type them, with or without accents and vowel points. Filter by language, and look a word up by its Strong's number to land on its lexicon entry.
+* 🔍 **A global search that forgives.** Full-text search (SQLite FTS5) across Bibles, commentaries, dictionaries, books, **devotionals** and **your own notes**, with a background index that rebuilds as your library grows. Quote a verse from memory and it still finds it: if no result matches every word, the closest verses come back clearly marked as approximate. It counts how many times a word appears, verse by verse and book by book, and it reads Greek and Hebrew the way people actually type them, with or without accents and vowel points. Combine the type filters, filter by language, and look a word up by its Strong's number to land on its lexicon entry. A devotional result opens Coram Deo on that very day.
 
 ### Getting started and staying oriented
 
