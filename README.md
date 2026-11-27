@@ -19,16 +19,16 @@ A modern, lightweight, offline-first desktop app for **anyone who wants to study
 
 **REFORMAMINI is in public beta** (the whole 0.x series, leading up to version 1.0). It is ready for daily use; a rare module may not read quite right. It becomes the stable 1.0 once the beta period ends. Get it from the [latest release](https://github.com/REFORMAMINI/REFORMAMINI/releases/latest):
 
-- **Windows · installer** — Windows 10 or later, with the interface engine included.
-- **Windows · portable** — a folder to carry on a USB drive, with your data kept inside it.
-- **macOS · disk image (.dmg)** — opens and installs the app on your Mac.
-- **Linux · AppImage** — a single file for Debian, Ubuntu, Arch and Fedora.
+- **Windows · installer** - Windows 10 or later, with the interface engine included.
+- **Windows · portable** - a folder to carry on a USB drive, with your data kept inside it.
+- **macOS · disk image (.dmg)** - opens and installs the app on your macOS computer.
+- **Linux · AppImage** - a single file for Debian, Ubuntu, Arch and Fedora.
 
 Each download is accompanied by its **SHA-256 fingerprint** and the release notes. Updates are signed and you decide when to install them.
 
 ## ⚠️ A note about the warnings you may see
 
-Neither the Windows installer nor the Mac app carries a paid signing certificate yet, so your system may show a warning. **It does not mean the file is a virus, and you do not need to disable any protection.**
+Neither the Windows installer nor the macOS app carries a paid signing certificate yet, so your system may show a warning. **It does not mean the file is a virus, and you do not need to disable any protection.**
 
 - **Windows:** a blue box may say **"Windows protected your PC"**. Click **"More info"** and then **"Run anyway"**.
 - **macOS:** the system may say the **developer cannot be identified**. Right-click the app, choose **"Open"**, and then click **"Open"** in that window.
@@ -62,11 +62,20 @@ REFORMAMINI is built to **democratize systematic Bible study for everyone**. Whe
 ### 📚 Parallel Bible Versions (Side-by-Side Comparison)
 ![Parallel View](screenshots/paralelo.webp)
 
+### 🔍 Extended Search (Match Modes, Exclusions & Book Counts)
+![Extended search with match modes, excluded words and breakdown by book](screenshots/busqueda-extendida.webp)
+
+### 🗄️ Visual Bookshelf
+![Visual bookshelf for browsing Bible translations and books](screenshots/librero-visual.webp)
+
 ### 📖 Document Viewer (Tolle lege)
 ![EPUB open in Tolle lege with clickable citations](screenshots/tolle-lege.webp)
 
-### 🌍 Charts and maps
+### 🌍 Charts and maps (Atlas)
 ![Atlas open on a map of Greece and the Aegean Sea](screenshots/atlas.webp)
+
+### 🗺️ Atlas Map Gallery
+![Atlas map gallery with visual collection cards](screenshots/atlas-mapoteca.webp)
 
 ### ✍️ Your Own Notes (Scriptorium)
 ![Notes in Markdown](screenshots/scriptorium.webp)
@@ -86,16 +95,16 @@ Every feature listed here is built and working in the app.
 * 🪟 **Dockable panel workspace.** Commentary, dictionary, notes and Bible panels are tabs you can drag to any edge, pin, reorder or fold into a side rail. Global interface zoom included.
 * 📊 **Parallel view.** Two to four versions side by side with verse-synchronized scrolling.
 * 🏛️ **Interlinear view.** Word to original to Strong's number to morphology, rendered from the tagged text rather than dumped HTML, with hover tooltips that expand morphology codes into plain language. Where a module marks them, the same tooltip says how that word is transmitted across editions of the original text, and how each edition spells it.
-* 🔗 **Bilingual reference engine.** Detects Scripture citations in English and Spanish across commentaries, notes, books and EPUBs. Click opens the passage; hover shows a preview in the Bible version you choose.
+* 🔗 **Bilingual reference engine.** Detects Scripture citations in English and Spanish across commentaries, notes, books, PDFs and EPUBs. Click opens the passage; hover shows a preview in the Bible version you choose.
 * 🕊️ **Coram Deo.** A dedicated reader for e-Sword devotional modules, by month and day.
-* 🌍 **Atlas.** Maps, charts and timelines extracted from map modules, with zoom, pan, section navigation and the same dockable study panels (commentary, dictionary and notes).
+* 🌍 **Atlas.** Maps, charts and timelines extracted from map modules, with a visual map gallery, smooth zoom and pan, section navigation and the same dockable study panels (commentary, dictionary and notes).
 
 ### Your own material
 
-* 📖 **Tolle lege.** A unified book reader for e-Sword reference books, **PDF** files (rendered with PDF.js, page by page or as a two-page spread) and **EPUB** files (continuous reading by default, with a navigable table of contents and an optional paginated book view). Scripture citations inside all three are clickable and drive the Bible panel.
-* 📝 **Scriptorium.** Notes are plain **Markdown files on disk**, one per note, with a native editor, tags, and an optional link to a passage. Nothing is locked inside a database you cannot read.
-* 🖍️ **Highlights and bookmarks.** Six highlight colors with a selection popup, per-verse annotations, and collections gathered by book. Highlights work in the Bible, in books, in PDFs and in EPUBs.
-* 🔍 **A global search that forgives.** Full-text search (SQLite FTS5) across Bibles, commentaries, dictionaries, books, **devotionals** and **your own notes**, with a background index that rebuilds as your library grows. Quote a verse from memory and it still finds it: if no result matches every word, the closest verses come back clearly marked as approximate. It counts how many times a word appears, verse by verse and book by book, and it reads Greek and Hebrew the way people actually type them, with or without accents and vowel points. Combine the type filters, filter by language, and look a word up by its Strong's number to land on its lexicon entry. A devotional result opens Coram Deo on that very day.
+* 📖 **Tolle lege.** A unified book reader for e-Sword reference books, **PDF** files (rendered with PDF.js, page by page or as a two-page spread) and **EPUB** files (continuous reading by default, with a navigable table of contents and an optional paginated book view). Scripture citations inside all three are clickable and drive the Bible panel. When your library grows beyond five books (or five Bibles in the Reader), a **visual bookshelf** lets you browse volumes by spine and cover, pin a book to inspect its details, and drag-reorder your top five quick-access slots, or switch back to a compact list in Settings.
+* 📝 **Scriptorium.** Notes are plain **Markdown files on disk**, one per note, with a native editor supporting headings, tables, blockquotes, resizable images, tags, an optional link to a passage and direct **PDF export**. Nothing is locked inside a database you cannot read.
+* 🖍️ **Highlights and bookmarks.** Six highlight colors with a selection popup, per-verse annotations, saved bookmarks and collections gathered by book. Highlights work in the Bible, in books, in PDFs and in EPUBs.
+* 🔍 **Quick and extended search.** Full-text search (SQLite FTS5) across Bibles, commentaries, dictionaries, books, **devotionals** and **your own notes**, with a background index that rebuilds as your library grows. Choose between **All words** (whole-word matching), **Exact phrase** and **Partial match** (substring), **exclude specific words**, filter by module, language or books, and see a live **breakdown by book** with verse and occurrence counts. Quote a verse from memory and it still finds it: if no result matches every word, the closest verses come back clearly marked as approximate. It reads Greek and Hebrew with or without accents and vowel points, lets you look up Strong's numbers directly, and opens devotional hits in Coram Deo on that very day.
 
 ### Getting started and staying oriented
 
@@ -103,7 +112,7 @@ Every feature listed here is built and working in the app.
 * 📘 **User manual.** The installer and the portable folder ship a bilingual user manual (PDF, with screenshots, and a plain-text copy) that covers every screen and control. You can also [read it here](MANUAL-DE-USUARIO.pdf). How to study the Bible lives in the in-app Study Guide, not in that file.
 * 📦 **Batteries included.** Ships with the King James Version, the Reina-Valera 1909 and twenty historic creeds and confessions of the church, in English and Spanish, so the app is useful before you import anything.
 * 🎓 **Learning Center.** An offline wiki-style guide (glossary, historical-grammatical method, study pedagogy), a first-visit introduction for every screen, and guided tours, all written in plain language and available in both languages.
-* 🎨 **Appearance and reading settings.** Four themes (Light, Midnight, Cream, Azure), a custom accent color that adapts to each theme, reading typography (a choice of seven bundled reading faces, plus size, line spacing, column width and justification), and red letters for the words of Jesus. The parallel view keeps a face per column, and the document viewer keeps its own.
+* 🎨 **Appearance and reading settings.** Four themes (Light, Midnight, Cream, Azure), four biblical reading backgrounds (Galilee, Sinai, Patmos, Gethsemane), a custom accent color and reading text color with automatic contrast, reading typography (seven bundled reading faces, plus size, line spacing, column width and justification), and red letters for the words of Jesus. The parallel view keeps a face per column, and the document viewer keeps its own.
 * 📁 **A library folder you can see.** Your modules and notes live in a visible folder (`Documents/REFORMAMINI` by default, changeable), so backing up or syncing them is your call.
 * 🔄 **Signed updates on your terms.** REFORMAMINI checks for a new version on startup (you can turn the check off in Settings, or press "Check now" any time), downloads it in the background and tells you when it is ready; you decide when to restart. It is the only thing that ever uses the network.
 
